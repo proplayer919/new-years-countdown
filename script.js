@@ -49,7 +49,7 @@ const countdownContainer = document.querySelector(".countdown-container");
 
     // Function to trigger fireworks (You may need to adjust the parameters based on the fireworks.js documentation)
     function triggerFireworks() {
-        document.querySelector('countdown-container').style['display'] = 'none';
+        document.querySelector('.countdown-container').style['display'] = 'none';
         const container = document.body;
   const fireworks = new Fireworks.default(container)
         fireworks.start();
